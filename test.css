@@ -1,0 +1,67 @@
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: slategrey;
+}
+
+.card-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.card {
+    margin: 1rem;
+    border: 1px solid black;
+    /* border-radius: 25px; */
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-title,
+.card-text {
+    display: flex;
+    /* justify-content: center; */
+    padding: .25rem 1rem 0 1rem;
+}
+
+.card-title-two{
+    display: flex;
+    padding: 0 1rem 1rem 1rem;
+}
+
+
+.center-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.name-background {
+    background-color: dodgerblue;
+    /* border-radius: 25px 25px 0 0; */
+}
+
+.box-info {
+    display: flex;
+    justify-content: start;
+    padding: .25rem;
+}
+.box-style {
+    padding: .25rem;
+    border: 1px solid black;
+    width: 80%;
+}
