@@ -22,7 +22,7 @@ Done in JS. Just answer the prompted questions and watch the magic happen.
 ![Img 2]()   
   
 ## Installation   
-' git clone git@github.com:Phillip48/Team-profile-generator.git'
+`git clone git@github.com:Phillip48/Team-profile-generator.git`
 
 ## Contact Me  
 Github: Phillip48  
