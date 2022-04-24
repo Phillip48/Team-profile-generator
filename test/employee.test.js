@@ -25,9 +25,12 @@ describe('Employee', () => {
         const e = new Employee(email);
         expect(e.email).toBe(email);
     })
+    
     // set name via constructor function
     it('Can set name with the constructor function', () => {
-        
+        const name = 'robin';
+        const e = new Employee;
+        expect(e).toBe(name)
     })
     // set id via constructor function
     it('Can set id with the constructor function', () => {
