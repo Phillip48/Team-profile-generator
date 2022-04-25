@@ -16,29 +16,36 @@ describe('Employee', () => {
     // set id via constructor args
     it('Can set id with the constructor args', () => {
         const id = '6794';
-        const e = new Employee(id);
+        const e = new Employee('rocket', id);
         expect(e.id).toBe(id);
     })
     // set email via constructor args
     it('Can set email with the constructor args', () => {
         const email = 'ricky@doge.com';
-        const e = new Employee(email);
+        const e = new Employee('rocket', 645, email);
         expect(e.email).toBe(email);
     })
     
-    // set name via constructor function
-    it('Can set name with the constructor function', () => {
+    // get name via constructor function
+    it('Can get name with the constructor function', () => {
         const name = 'robin';
-        const e = new Employee;
-        expect(e).toBe(name)
+        const e = new Employee(name);
+        const employeeName = e.getName();
+        expect(employeeName).toBe(name)
     })
-    // set id via constructor function
-    it('Can set id with the constructor function', () => {
-        
+    // get id via constructor function
+    it('Can get id with the constructor function', () => {
+        const id = 6497;
+        const e = new Employee('robin', id);
+        const employeeId = e.getId();
+        expect(employeeId).toBe(id)
     })
-    // set email via constructor function
-    it('Can set email with the constructor function', () => {
-        
+    // get email via constructor function
+    it('Can get email with the constructor function', () => {
+        const email = 'ricky@doge.com';
+        const e = new Employee('ricky', 6497, email);
+        const employeeEmail = e.getEmail();
+        expect(employeeEmail).toBe(email)
     })
     // role function should return employee
 
