@@ -1,4 +1,5 @@
 // require
+const { it } = require('jest-circus');
 const Employee = require('../lib/employee')
 
 // test can begin employee instance
@@ -48,5 +49,4 @@ describe('Employee', () => {
         expect(employeeEmail).toBe(email)
     })
     // role function should return employee
-
 })
