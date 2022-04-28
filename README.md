@@ -18,7 +18,7 @@ Have you ever needed to make a profile for a new memeber to your team and tired 
 Done in JS. Just answer the prompted questions and watch the magic happen.
 
 ### Images  
-![Img 1]()  
+![Img 1](./dist/img/questions.png)  
 ![Img 2]()   
   
 ## Installation   
