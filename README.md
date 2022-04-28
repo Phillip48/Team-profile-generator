@@ -13,6 +13,7 @@
 
 ## Description  
 Have you ever needed to make a profile for a new memeber to your team and tired of the redundent process of doing it over and over again? Well this is for you! Answer the prompted questions and add as many new profiles for your team members that you want. It works with node.js using inquirer, jest, and many other programs to generate your member profile. 
+[Video Link](https://drive.google.com/file/d/1-m2XJ1nZhYrkJZv4VtViANBAH1pOaX6H/view?usp=sharing)
 
 ## Information  
 Done in JS. Just answer the prompted questions and watch the magic happen.
@@ -29,10 +30,7 @@ Github: Phillip48
 Email: Phillippereira02@gmail.com  
 
 ## License 
-This project is licensed under MIT   
-
-*[License](#) 
-   
+This project is licensed under MIT  
    
 ## Contributors  
 *Phillip48*  
